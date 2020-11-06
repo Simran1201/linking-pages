@@ -1,0 +1,66 @@
+html,body { 
+	height: 100%; 
+}
+
+.first-nav{
+    background-color: whitesmoke;
+}
+
+.second-nav{
+   margin-top:100px;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content h4:hover{
+    color:purple; 
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {color:purple;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: white;}
+  .button4 {border-radius: 12px;}
+
+  .meditation{
+    background:#ddd8fa;
+    margin-top: 300px;
+}
+
+ .started{
+  background-color: rgba(9, 5, 70, 0.959);
+  margin-top:-250px;
+ }
+
+ .footer{
+  background-color:#cdcae046;
+ 
+ }
